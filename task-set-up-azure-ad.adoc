@@ -134,3 +134,32 @@ Der Service Principal für BlueXP verfügt jetzt über die erforderlichen Azure-
 
 
 
+
+
+
+== Zugangsdaten zu BlueXP hinzufügen
+
+Wenn Sie die Azure NetApp Files-Arbeitsumgebung erstellen, werden Sie aufgefordert, die Anmeldeinformationen auszuwählen, die dem Service-Principal zugeordnet sind. Sie müssen diese Anmeldedaten zu BlueXP hinzufügen, bevor Sie eine Arbeitsumgebung erstellen.
+
+.Schritte
+. Klicken Sie oben rechts in der BlueXP-Konsole auf das Symbol Einstellungen und wählen Sie *Anmeldeinformationen*.
++
+image:screenshot_settings_icon.gif["Ein Screenshot, in dem das Symbol Einstellungen oben rechts in der BlueXP-Konsole angezeigt wird."]
+
+. Klicken Sie auf *Anmeldeinformationen hinzufügen* und befolgen Sie die Schritte im Assistenten.
++
+.. *Speicherort der Zugangsdaten*: Wählen Sie *Microsoft Azure > BlueXP*.
+.. *Anmeldedaten definieren*: Geben Sie Informationen über den Azure Active Directory Service Principal ein, der die erforderlichen Berechtigungen erteilt:
++
+*** Client-Schlüssel
+*** Anwendungs-ID (Client)
+*** ID des Verzeichnisses (Mandant)
++
+Sie sollten diese Informationen erfasst haben, wenn Sie <<Erstellen Sie die AD-Applikation,Die AD-Anwendung wurde erstellt>>.
+
+
+
+.. *Review*: Bestätigen Sie die Angaben zu den neuen Anmeldedaten und klicken Sie auf *Hinzufügen*.
+
+
+
