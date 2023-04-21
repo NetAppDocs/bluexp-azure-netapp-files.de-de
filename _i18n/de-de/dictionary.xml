@@ -7,11 +7,6 @@
   <block id="86431e70f2e01436434235b95f27507f" category="list-text">Mehrere Performance-Tiers ermöglichen eine enge Ausrichtung an den Workload-Performance-Anforderungen.</block>
   <block id="0f5101975c831a1a6350155e818d4cbf" category="list-text">Hervorragende Zertifizierungen wie SAP HANA, DSGVO und HIPAA ermöglichen die Migration anspruchsvollster Workloads zu Azure.</block>
   <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">Zusätzliche Funktionen in BlueXP</block>
-  <block id="c9e8b2e7aec1baa65efcbe84dfc9d0ed" category="inline-link">Weitere Informationen zu Cloud Sync</block>
-  <block id="707476b7ceb8bcfdb9c13e59859ae97a" category="paragraph"><block ref="707476b7ceb8bcfdb9c13e59859ae97a" category="inline-link-rx"></block></block>
-  <block id="25c46bef01bcfa77e5905b1d3308762a" category="list-text">Mithilfe von künstlicher Intelligenz (KI) hilft Cloud Data Sense Ihnen, den Datenkontext zu verstehen und sensible Daten in Ihren Azure NetApp Files-Konten zu identifizieren.</block>
-  <block id="a11b0fe7d09898eeb7b50552e83ef426" category="inline-link">Erfahren Sie mehr über Cloud Data Sense</block>
-  <block id="3af0f3d8f43764595483a67930d47716" category="paragraph"><block ref="3af0f3d8f43764595483a67930d47716" category="inline-link-rx"></block></block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Kosten</block>
   <block id="b8371ae9d98b29b8335a4aea09cdaff3" category="inline-link">Informieren Sie sich über die Preise für Azure NetApp Files</block>
   <block id="4b3f21f8a5b6bf8c27f851053be34ac4" category="paragraph"><block ref="4b3f21f8a5b6bf8c27f851053be34ac4" category="inline-link-rx"></block></block>
@@ -26,8 +21,6 @@
   <block id="d2481b597ffa17042188ef5a1d63c33f" category="list-text"><block ref="d2481b597ffa17042188ef5a1d63c33f" category="inline-link-rx"></block></block>
   <block id="6c32a3d0f1a665987b98dde5a0f96d7d" category="inline-link">Azure NetApp Files-Dokumentation</block>
   <block id="844f85f22af5197ff73f93313cd94cd1" category="list-text"><block ref="844f85f22af5197ff73f93313cd94cd1" category="inline-link-rx"></block></block>
-  <block id="815e6b3583bbc9969fd306b9391ed0cb" category="inline-link">Cloud Sync-Dokumentation</block>
-  <block id="e66ce730725b027d172b1b3ee7612614" category="list-text"><block ref="e66ce730725b027d172b1b3ee7612614" category="inline-link-rx"></block></block>
   <block id="2433628c53fed80ea9d352a1bcd9ce45" category="summary">Führen Sie diese Schritte schnell durch, oder scrollen Sie nach unten zu den verbleibenden Abschnitten, um ausführliche Informationen zu erhalten.</block>
   <block id="5bfad4d83a647919018a0bb53b602ce1" category="doc">Schnellstart für Azure NetApp Files</block>
   <block id="597907fb22ffd6d5d99abe19205161d6" category="paragraph">Führen Sie diese Schritte schnell durch, oder folgen Sie den Links, um weitere Informationen zu erhalten.</block>
@@ -318,7 +311,6 @@
   <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">Durch die Möglichkeit, Azure NetApp Files direkt über Cloud Manager zu erstellen und zu managen, wird die vorherige Datenmigrationsfunktion ersetzt.</block>
   <block id="173fd2f937506a4111b0bc09349619a8" category="section-title">5. April 2020</block>
   <block id="02a58c551f186d8f833147198d69fb26" category="section-title">Datenmigration auf Azure NetApp Files</block>
-  <block id="8d30064c294030bc7a1446fe0cf94ca9" category="paragraph">NFS- oder SMB-Daten lassen sich nun direkt über Cloud Manager zu Azure NetApp Files migrieren. Die Synchronisierung von Daten wird durch den NetApp Cloud Sync Service unterstützt.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Rechtliche Hinweise</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Rechtliche Hinweise ermöglichen den Zugriff auf Copyright-Erklärungen, Marken, Patente und mehr.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Urheberrecht</block>
@@ -438,5 +430,13 @@
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Anhänge sind auf 25 MB pro Datei begrenzt. Folgende Dateierweiterungen werden unterstützt: Txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx und csv.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Aktennotizen aktualisieren*: Geben Sie zusätzliche Details zu Ihrem Problem an oder wählen Sie *Dateien hochladen*, um maximal fünf Dateien anzuhängen.</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
-  <block id="6ecf0fff968ff9d17f1f524f90c9a9fe" category="list-text">Migrieren Sie NFS- oder SMB-Daten direkt aus BlueXP zu Azure NetApp Files. Datenmigrationen sind durch den NetApp Cloud Sync Service möglich.</block>
+  <block id="5ae0183e058629fb85c6246d99460224" category="list-text">Migrieren Sie NFS- oder SMB-Daten direkt aus BlueXP zu Azure NetApp Files. Datenmigrationen werden durch die BlueXP Kopier- und Synchronisierungsfunktion unterstützt.</block>
+  <block id="29a7b2441d86b88dc7b6b010d54ea1ea" category="inline-link">Weitere Informationen zum Kopieren und Synchronisieren von BlueXP</block>
+  <block id="b21bc087b016de9c9d4df482b82dd508" category="paragraph"><block ref="b21bc087b016de9c9d4df482b82dd508" category="inline-link-rx"></block></block>
+  <block id="08db1d63700c3fa1c62acd4830447cc5" category="list-text">Mithilfe von künstlicher Intelligenz (KI) hilft Ihnen die BlueXP Klassifizierung dabei, den Datenkontext zu verstehen und sensible Daten in Ihren Azure NetApp Files-Konten zu identifizieren.</block>
+  <block id="726d1cad4d0527532460d1a853919ebc" category="inline-link">Weitere Informationen zur BlueXP Klassifizierung</block>
+  <block id="a77bc623afdc17e8c5a78facbb8e1c59" category="paragraph"><block ref="a77bc623afdc17e8c5a78facbb8e1c59" category="inline-link-rx"></block></block>
+  <block id="db75f0488f4e9bbad86a02da9a572896" category="inline-link">Dokumentation der BlueXP Kopier- und Synchronisierungsfunktion</block>
+  <block id="fb74755ec9e51eecce1be084a0ce803a" category="list-text"><block ref="fb74755ec9e51eecce1be084a0ce803a" category="inline-link-rx"></block></block>
+  <block id="cc4556ad288d7fd7e7c9f944615b36c2" category="paragraph">NFS- oder SMB-Daten lassen sich nun direkt über Cloud Manager zu Azure NetApp Files migrieren. Datensynchronisierung wird durch BlueXP Kopier- und Synchronisierungsfunktion ermöglicht.</block>
 </blocks>
