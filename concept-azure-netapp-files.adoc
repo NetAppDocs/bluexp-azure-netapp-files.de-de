@@ -31,11 +31,11 @@ Mit Azure NetApp Files können Unternehmen ihre Performance-intensiven und laten
 
 * Migrieren Sie NFS- oder SMB-Daten direkt aus BlueXP zu Azure NetApp Files. Datenmigrationen werden durch die BlueXP Kopier- und Synchronisierungsfunktion unterstützt.
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["Weitere Informationen zum Kopieren und Synchronisieren von BlueXP"^]
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["Weitere Informationen zum Kopieren und Synchronisieren von BlueXP"^]
 
 * Mithilfe von künstlicher Intelligenz (KI) hilft Ihnen die BlueXP Klassifizierung dabei, den Datenkontext zu verstehen und sensible Daten in Ihren Azure NetApp Files-Konten zu identifizieren.
 +
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Weitere Informationen zur BlueXP Klassifizierung"^]
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Weitere Informationen zur BlueXP Klassifizierung"^]
 
 
 
@@ -65,5 +65,5 @@ Bei Problemen mit dem technischen Support im Zusammenhang mit Azure NetApp Files
 
 * https://cloud.netapp.com/azure-netapp-files["Azure NetApp Files auf der NetApp BlueXP Website"^]
 * https://docs.microsoft.com/azure/azure-netapp-files/["Azure NetApp Files-Dokumentation"^]
-* https://docs.netapp.com/us-en/cloud-manager-sync/index.html["Dokumentation der BlueXP Kopier- und Synchronisierungsfunktion"^]
+* https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["Dokumentation der BlueXP Kopier- und Synchronisierungsfunktion"^]
 
