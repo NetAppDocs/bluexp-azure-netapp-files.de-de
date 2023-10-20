@@ -18,7 +18,7 @@ Für die Einrichtung und Verwaltung von Azure NetApp Files benötigt BlueXP Bere
 
 
 
-== Erstellen Sie die AD-Applikation
+== Schritt 1: Erstellen Sie die AD-Anwendung
 
 Erstellen Sie eine Azure AD-Anwendung und einen Service-Principal, den BlueXP für die rollenbasierte Zugriffssteuerung verwenden kann.
 
@@ -69,7 +69,7 @@ Ihre AD-Anwendung ist jetzt eingerichtet und Sie sollten die Anwendungs-ID (Clie
 
 
 
-== Weisen Sie die App einer Rolle zu
+== Schritt 2: Weisen Sie die App einer Rolle zu
 
 Sie müssen den Service-Principal an Ihr Azure-Abonnement binden und ihm eine benutzerdefinierte Rolle zuweisen, die über die erforderlichen Berechtigungen verfügt.
 
@@ -137,7 +137,7 @@ Der Service Principal für BlueXP verfügt jetzt über die erforderlichen Azure-
 
 
 
-== Zugangsdaten zu BlueXP hinzufügen
+== Schritt 3: Fügen Sie die Zugangsdaten zu BlueXP hinzu
 
 Wenn Sie die Azure NetApp Files-Arbeitsumgebung erstellen, werden Sie aufgefordert, die Anmeldeinformationen auszuwählen, die dem Service-Principal zugeordnet sind. Sie müssen diese Anmeldedaten zu BlueXP hinzufügen, bevor Sie eine Arbeitsumgebung erstellen.
 
@@ -155,7 +155,7 @@ image:screenshot_settings_icon.gif["Ein Screenshot, in dem das Symbol Einstellun
 *** Anwendungs-ID (Client)
 *** ID des Verzeichnisses (Mandant)
 +
-Sie sollten diese Informationen erfasst haben, wenn Sie <<Erstellen Sie die AD-Applikation,Die AD-Anwendung wurde erstellt>>.
+Sie sollten diese Informationen erfasst haben, wenn Sie <<Create the AD application,Die AD-Anwendung wurde erstellt>>.
 
 
 

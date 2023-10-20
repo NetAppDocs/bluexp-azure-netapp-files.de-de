@@ -4,7 +4,7 @@ permalink: task-manage-volumes.html
 keywords: azure netapp files, delete volumes, delete nfs volumes, netapp account, capacity pool, change service level 
 summary: Nach der Einrichtung der Arbeitsumgebung können Azure NetApp Files-Konten, Kapazitäts-Pools, Volumes und Snapshots gemanagt werden. 
 ---
-= Management von Volumes für Azure NetApp Files
+= Management vorhandener Volumes
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
