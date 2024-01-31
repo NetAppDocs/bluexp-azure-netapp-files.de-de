@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-working-env.html 
 keywords: azure netapp files, create working environment, working environment 
-summary: Erstellen Sie nach der Einrichtung einer Azure Active Directory-Anwendung in BlueXP eine Azure NetApp Files-Arbeitsumgebung, damit Sie die benötigten Volumes erstellen können. 
+summary: Erstellen Sie nach der Einrichtung einer Microsoft Entra Applikation in BlueXP eine Azure NetApp Files Arbeitsumgebung, in der Sie mit dem Erstellen der benötigten Volumes beginnen können. 
 ---
 = Schaffung einer Azure NetApp Files-Arbeitsumgebung
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Erstellen Sie nach der Einrichtung einer Azure Active Directory-Anwendu
 
 
 [role="lead"]
-Nachdem Sie eine Azure Active Directory Applikation eingerichtet und die Zugangsdaten zu BlueXP hinzugefügt haben, erstellen Sie eine Azure NetApp Files Arbeitsumgebung, damit Sie mit dem Erstellen der benötigten Volumes beginnen können.
+Erstellen Sie nach dem Einrichten einer Microsoft Entra Applikation und dem Hinzufügen der Zugangsdaten zu BlueXP eine Azure NetApp Files Arbeitsumgebung, damit Sie mit dem Erstellen der benötigten Volumes beginnen können.
 
 .Schritte
 . Klicken Sie auf der Seite Arbeitsfläche auf *Arbeitsumgebung hinzufügen*.

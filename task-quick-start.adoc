@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: set up azure netapp files, quick start 
-summary: Starten Sie mit Azure NetApp Files, indem Sie eine Azure Active Directory Anwendung einrichten und eine Arbeitsumgebung erstellen. 
+summary: Beginnen Sie mit Azure NetApp Files, indem Sie eine Microsoft Entra-Anwendung einrichten und eine Arbeitsumgebung erstellen. 
 ---
 = Erste Schritte für den Workflow
 :hardbreaks:
@@ -14,11 +14,11 @@ summary: Starten Sie mit Azure NetApp Files, indem Sie eine Azure Active Directo
 
 
 [role="lead"]
-Starten Sie mit Azure NetApp Files, indem Sie eine Azure Active Directory Anwendung einrichten und eine Arbeitsumgebung erstellen.
+Beginnen Sie mit Azure NetApp Files, indem Sie eine Microsoft Entra-Anwendung einrichten und eine Arbeitsumgebung erstellen.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Eins"] link:task-set-up-azure-ad.html["Richten Sie eine Azure AD-Applikation ein"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Eins"] link:task-set-up-azure-ad.html["Richten Sie eine Microsoft Entra-Anwendung ein"]
 [role="quick-margin-para"]
-Von Azure erteilen Sie Berechtigungen für eine Azure AD-Applikation und kopieren Sie die Anwendungs-ID (Client), die Verzeichnis- (Mandanten-)ID und den Wert eines Clientgeheimnisses.
+Erteilen Sie in Azure Berechtigungen für eine Microsoft Entra-Anwendung und kopieren Sie die Anwendungs-(Client-)ID, die Verzeichnis-(Mandanten-)ID und den Wert eines Client-Geheimnisses.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Zwei"] link:task-create-working-env.html["Schaffung einer Azure NetApp Files-Arbeitsumgebung"]
 [role="quick-margin-para"]

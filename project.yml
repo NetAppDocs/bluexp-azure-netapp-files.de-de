@@ -23,7 +23,7 @@ sidebar:
       url: "/concept-azure-netapp-files.html"
     - title: Erste Schritte für den Workflow
       url: "/task-quick-start.html"
-    - title: Richten Sie eine Azure AD-Applikation ein
+    - title: Richten Sie eine Microsoft Entra-Anwendung ein
       url: "/task-set-up-azure-ad.html"
     - title: Schaffen Sie eine Arbeitsumgebung
       url: "/task-create-working-env.html"
@@ -43,28 +43,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: Rechtliche Hinweise
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: Los geht's
-    links:
-    - title: Weitere Informationen zu Azure NetApp Files
-      url: concept-azure-netapp-files.html
-    - title: Schnellstart
-      url: task-quick-start.html
-  - title: Verwenden Sie Azure NetApp Files
-    links:
-    - title: Volumes erstellen
-      url: task-create-volumes.html
-    - title: Volumes managen
-      url: task-manage-volumes.html
-  - title: Blogs Community
-    links:
-    - title: NetApp Community
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP-Blog
-      url: https://cloud.netapp.com/blog
-    - title: Cloud-Webinare
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family

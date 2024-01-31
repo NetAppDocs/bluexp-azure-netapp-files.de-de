@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-set-up-azure-ad.html 
 keywords: azure netapp files, azure netapp files permissions, azure permissions, active directory, application, ad application, ad app, app, service principal 
-summary: Für die Einrichtung und Verwaltung von Azure NetApp Files benötigt BlueXP Berechtigungen. Sie können einem Azure-Konto die erforderlichen Berechtigungen erteilen, indem Sie eine Azure Active Directory-Anwendung erstellen und einrichten, und die von BlueXP benötigten Azure-Anmeldedaten erhalten. 
+summary: Für die Einrichtung und Verwaltung von Azure NetApp Files benötigt BlueXP Berechtigungen. Sie können die erforderlichen Berechtigungen für ein Azure-Konto erteilen, indem Sie eine Microsoft Entra-Applikation erstellen und einrichten und die für BlueXP erforderlichen Azure-Zugangsdaten erhalten. 
 ---
-= Richten Sie eine Azure AD-Applikation ein
+= Richten Sie eine Microsoft Entra-Anwendung ein
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,21 +14,21 @@ summary: Für die Einrichtung und Verwaltung von Azure NetApp Files benötigt Bl
 
 
 [role="lead"]
-Für die Einrichtung und Verwaltung von Azure NetApp Files benötigt BlueXP Berechtigungen. Sie können einem Azure-Konto die erforderlichen Berechtigungen erteilen, indem Sie eine Azure Active Directory (AD)-Applikation erstellen und einrichten, und die von BlueXP benötigten Azure Zugangsdaten erhalten.
+Für die Einrichtung und Verwaltung von Azure NetApp Files benötigt BlueXP Berechtigungen. Sie können die erforderlichen Berechtigungen für ein Azure-Konto erteilen, indem Sie eine Microsoft Entra-Applikation erstellen und einrichten und die für BlueXP erforderlichen Azure-Zugangsdaten erhalten.
 
 
 
-== Schritt 1: Erstellen Sie die AD-Anwendung
+== Schritt 1: Erstellen Sie die Anwendung
 
-Erstellen Sie eine Azure AD-Anwendung und einen Service-Principal, den BlueXP für die rollenbasierte Zugriffssteuerung verwenden kann.
+Erstellen Sie ein Microsoft Entra-Applikations- und Serviceprinzip, das BlueXP für die rollenbasierte Zugriffssteuerung verwenden kann.
 
 .Bevor Sie beginnen
 Sie müssen über die richtigen Berechtigungen in Azure verfügen, um eine Active Directory-Anwendung zu erstellen und die Anwendung einer Rolle zuzuweisen. Weitere Informationen finden Sie unter https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure-Dokumentation: Erforderliche Berechtigungen"^].
 
 .Schritte
-. Öffnen Sie über das Azure-Portal den *Azure Active Directory*-Service.
+. Öffnen Sie im Azure-Portal den Dienst *Microsoft Entra ID*.
 +
-image:screenshot_azure_ad.gif["Ein Screenshot, der den Active Directory-Dienst in Microsoft Azure zeigt."]
+image:screenshot_azure_ad.png["Ein Screenshot, der den Active Directory-Dienst in Microsoft Azure zeigt."]
 
 . Klicken Sie im Menü auf *App-Registrierungen*.
 . Anwendung erstellen:
@@ -46,19 +46,19 @@ image:screenshot_azure_ad.gif["Ein Screenshot, der den Active Directory-Dienst i
 
 . Kopieren Sie die *Application (Client) ID* und die *Directory (Tenant) ID*.
 +
-image:screenshot_anf_app_ids.gif["Ein Screenshot, der die Anwendungs-ID (Client) und die Verzeichnis-ID (Mandant) für eine Anwendung in Azure Active Directory anzeigt"]
+image:screenshot_anf_app_ids.gif["Ein Screenshot, der die Anwendungs- (Client-) ID und Verzeichnis- (Mandanten-) ID für eine Anwendung in der Microsoft Entra ID anzeigt."]
 
 +
 Wenn Sie die Azure NetApp Files-Arbeitsumgebung in BlueXP erstellen, müssen Sie die Anwendungs- (Client)-ID und die Verzeichnis-(Mandanten-)ID für die Anwendung angeben. BlueXP verwendet die IDs, um sich programmatisch anzumelden.
 
-. Erstellen Sie ein Clientgeheimnis für die Anwendung, damit BlueXP es zur Authentifizierung mit Azure AD verwenden kann:
+. Erstellen Sie einen Client Secret für die Anwendung, damit BlueXP sie zur Authentifizierung mit Microsoft Entra ID verwenden kann:
 +
 .. Klicken Sie auf *Zertifikate & Geheimnisse > Neuer Client Secret*.
 .. Geben Sie eine Beschreibung des Geheimnisses und eine Dauer an.
 .. Klicken Sie Auf *Hinzufügen*.
 .. Kopieren Sie den Wert des Clientgeheimnisses.
 +
-image:screenshot_anf_client_secret.gif["Ein Screenshot des Azure-Portals, in dem ein Client-Geheimnis für den Azure AD-Service-Principal angezeigt wird"]
+image:screenshot_anf_client_secret.gif["Ein Screenshot des Azure-Portals zeigt einen Client-Secret für den Microsoft Entra-Dienst-Principal."]
 
 
 
@@ -149,7 +149,7 @@ image:screenshot_settings_icon.gif["Ein Screenshot, in dem das Symbol Einstellun
 . Klicken Sie auf *Anmeldeinformationen hinzufügen* und befolgen Sie die Schritte im Assistenten.
 +
 .. *Speicherort der Zugangsdaten*: Wählen Sie *Microsoft Azure > BlueXP*.
-.. *Anmeldedaten definieren*: Geben Sie Informationen über den Azure Active Directory Service Principal ein, der die erforderlichen Berechtigungen erteilt:
+.. *Credentials definieren*: Geben Sie Informationen über den Microsoft Entra-Dienst-Prinzipal ein, der die erforderlichen Berechtigungen gewährt:
 +
 *** Client-Schlüssel
 *** Anwendungs-ID (Client)
