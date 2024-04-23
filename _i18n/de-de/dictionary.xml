@@ -48,7 +48,6 @@
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Diese Seriennummern werden als _PAYGO Seriennummern_ bezeichnet und werden zum Zeitpunkt der Cloud Volumes ONTAP Implementierung von BlueXP generiert.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Wenn Sie über ein Konto auf Kundenebene verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Ein Screenshot des Hilfemenü, in dem Support die erste Option aufgeführt ist</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp verwendet Microsoft Azure Active Directory als Identitäts-Provider für Authentifizierungsservices, die sich speziell für Support und Lizenzierung entscheiden.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Geben Sie auf der Anmeldeseite die registrierte E-Mail-Adresse und das Kennwort Ihrer NetApp Support Site an, um den Authentifizierungsvorgang durchzuführen.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Mit diesen Aktionen kann BlueXP Ihr NSS-Konto für Dinge wie Lizenzdownloads, Softwareaktualisierungs-Verifizierung und zukünftige Support-Registrierungen verwenden.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Beachten Sie Folgendes:</block>
@@ -99,8 +98,6 @@
   <block id="af08318aa95b670c097bf944ab12d208" category="summary">Nach der Einrichtung der Arbeitsumgebung können Sie Azure NetApp Files Konten, Kapazitätspools und Volumes erstellen.</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">Volumes erstellen</block>
   <block id="15b71829402124199d38fc483f8a71b5" category="paragraph">NFS- oder SMB-Volumes können in einem neuen oder vorhandenen Azure NetApp Files-Konto erstellt werden.</block>
-  <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">Diesen Schritten ausführen</block>
-  <block id="890592abc0c43fcc710edb1dbdeaf2b3" category="paragraph">Mit der BlueXP Funktion „Templates“ können Sie Volumes erstellen, die für bestimmte Workloads, wie Datenbanken oder Streaming-Services, optimiert sind. Wenn Ihr Unternehmen Volume-Vorlagen erstellt hat, die Sie verwenden sollten, folgen Sie den Anweisungen <block ref="841f2986c591e442944fbc4b9e18c81f" category="inline-xref-macro-rx"></block>.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Bevor Sie beginnen</block>
   <block id="871a29db0a928b46295d82cee2357c13" category="list-text">Wenn Sie SMB verwenden möchten, müssen Sie DNS und Active Directory eingerichtet haben.</block>
   <block id="943219d5074bb5ad25a6a5caf2ffdd2a" category="list-text">Wenn Sie planen, ein SMB-Volume zu erstellen, müssen Sie über einen Windows Active Directory-Server verfügen, mit dem Sie eine Verbindung herstellen können. Sie geben diese Informationen bei der Erstellung des Volumes ein.</block>
@@ -126,27 +123,6 @@
   <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">Das neue Volumen wird der Arbeitsumgebung hinzugefügt.</block>
   <block id="eaae7feedfb57c4ccdcc53c186726c56" category="inline-xref">Montieren des Cloud Volumes</block>
   <block id="2f8952d0a4fb138ef90f78fb9a50fe88" category="paragraph">Weiter mit <block ref="b0f2178360372267ad19e1e8e4741e99" category="inline-xref-macro-rx"></block>.</block>
-  <block id="a37f6000ecd62b3a2058de32fa603d0a" category="section-title">Erstellen Sie Volumes aus Vorlagen</block>
-  <block id="4a856903cf54bbb57bd5703d54583103" category="paragraph">Wenn Ihr Unternehmen Azure NetApp Files Volume-Vorlagen erstellt hat, damit Sie Volumes implementieren können, die für die Workload-Anforderungen bestimmter Applikationen optimiert sind, befolgen Sie diese Schritte in diesem Abschnitt.</block>
-  <block id="8d69897f39fda1e4779ad2d9ff4939c4" category="paragraph">Die Vorlage sollte Ihren Job einfacher machen, da bestimmte Volume-Parameter bereits in der Vorlage definiert werden, z. B. Kapazitäts-Pool, Größe, Protokoll, vnet und Subnetz, auf dem sich das Volume befinden soll, und vieles mehr. Wenn ein Parameter bereits vordefiniert ist, können Sie einfach zum nächsten Volume-Parameter springen.</block>
-  <block id="f1a38681016ccf53a8d2c2fad98c7db2" category="list-text">Klicken Sie auf der Seite „Arbeitsfläche“ auf die Azure NetApp Files-Arbeitsumgebung, in der Sie ein Volume bereitstellen möchten.</block>
-  <block id="024205acf9405311336c02bbd2193b70" category="inline-image-macro">Schaltfläche „Mehr“</block>
-  <block id="f96393c48de5eddb1a2818124e9040b6" category="list-text">Klicken Sie Auf <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> &gt; *Volumen Aus Vorlage Hinzufügen*.</block>
-  <block id="74099e7b70c30e3a55db543cda9bfc1e" category="inline-image-macro">Ein Screenshot, der zeigt, wie ein neues Volume aus einer Vorlage hinzugefügt wird.</block>
-  <block id="098587c5859901ecc32e7a709cb2129f" category="paragraph"><block ref="098587c5859901ecc32e7a709cb2129f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5b33742921c3a09b3c0916cff2d87632" category="list-text">Wählen Sie auf der Seite _Vorlage auswählen_ die Vorlage aus, die Sie zum Erstellen des Volumes verwenden möchten, und klicken Sie auf *Weiter*.</block>
-  <block id="41fdbb8293e553892079d0e7ad8a9ad9" category="inline-image-macro">Ein Screenshot der verfügbaren Anwendungsvorlagen.</block>
-  <block id="e9be4d5050c4e00aff6426b7045f1b6a" category="paragraph"><block ref="e9be4d5050c4e00aff6426b7045f1b6a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8675916eaff2fb10955e8a3b1b14108f" category="paragraph">Die Seite _Define Parameters_ wird angezeigt.</block>
-  <block id="19f5b7f92268b2f8e63e4083819666c9" category="inline-image-macro">Ein Screenshot mit einer leeren Vorlage, die Sie ausfüllen müssen, um ein Volume zu erstellen.</block>
-  <block id="93fdd25da4e72c932b99d601b637202f" category="paragraph"><block ref="93fdd25da4e72c932b99d601b637202f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="31f425aaa6a26f3fc5e635704753602f" category="paragraph">*Hinweis:* Sie können das Kontrollkästchen *schreibgeschützte Parameter anzeigen* anklicken, um alle Felder anzuzeigen, die durch die Vorlage gesperrt wurden, wenn Sie die Werte für diese Parameter anzeigen möchten. Standardmäßig werden diese vordefinierten Felder ausgeblendet. Es werden nur die Felder angezeigt, die Sie ausfüllen müssen.</block>
-  <block id="2bc51d1d472e80f2611fe5ff280c4ebe" category="list-text">Klicken Sie auf *Ausführungsvorlage*, nachdem Sie alle für dieses Volume erforderlichen Parameter definiert haben.</block>
-  <block id="71fe7750eaf8ad346bfa5f8d17e350aa" category="paragraph">BlueXP stellt das Volume bereit und zeigt eine Seite an, so dass Sie den Fortschritt sehen können.</block>
-  <block id="40136e65ff57723941fc2af2bf21d54a" category="inline-image-macro">Ein Screenshot zeigt den Fortschritt der Erstellung Ihres neuen Volumes aus der Vorlage.</block>
-  <block id="4ad07dd99a58c5fa556826f4f972a56e" category="paragraph"><block ref="4ad07dd99a58c5fa556826f4f972a56e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">Dann wird das neue Volume zur Arbeitsumgebung hinzugefügt.</block>
-  <block id="0753d577f87c3ce7385e295a5cc23407" category="paragraph">Weiterhin das Mounten des Cloud Volume fortsetzen.</block>
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">Volumes mounten</block>
   <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">Greifen Sie in BlueXP auf die Montageanweisungen zu, damit Sie das Volume auf einen Host mounten können.</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">Öffnen Sie die Arbeitsumgebung.</block>
@@ -387,8 +363,6 @@
   <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">Ändern Sie die Spalten, die in der Tabelle angezeigt werden, indem Sie auswählen <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> Und wählen Sie dann die Spalten, die Sie anzeigen möchten.</block>
   <block id="348552521b849746260fe8d296d34c15" category="list-text">Managen Sie einen bestehenden Fall, indem Sie auswählen <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> Und eine der verfügbaren Optionen auswählen:</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Fall schließen*: Geben Sie Einzelheiten darüber an, warum Sie den Fall schließen und wählen Sie *Fall schließen*.</block>
-  <block id="2ed978d3284ec9503be973d54abd5507" category="inline-xref">Erstellen von Volumes</block>
-  <block id="d3685c976ba0d8be55399dcb8023edd0" category="list-text">Fügen Sie Werte für alle Parameter hinzu, die nicht hartcodiert sind. Siehe <block ref="94c7da97446a939ca89601c141819f83" category="inline-xref-macro-rx"></block> Sie finden Details zu allen Parametern, die Sie zur Implementierung eines Azure NetApp Files Volume abschließen müssen.</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -431,4 +405,8 @@
   <block id="ffbef04ea072f1887001d16556efc89e" category="summary">Beginnen Sie mit Azure NetApp Files, indem Sie eine Microsoft Entra-Anwendung einrichten und eine Arbeitsumgebung erstellen.</block>
   <block id="4825dc1eb26b7e7de707e1565fcb2692" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="ceb71631b57ba9aa78ded8805cd28ebf" category="inline-link-macro-rx"></block></block>
   <block id="0e63ec6ed03b6c3507b12798044de570" category="paragraph">Erteilen Sie in Azure Berechtigungen für eine Microsoft Entra-Anwendung und kopieren Sie die Anwendungs-(Client-)ID, die Verzeichnis-(Mandanten-)ID und den Wert eines Client-Geheimnisses.</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">Bis 22. April 2024</block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">Volume-Vorlagen werden nicht mehr unterstützt</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">Sie können kein Volume mehr aus einer Vorlage erstellen. Diese Aktion wurde mit dem BlueXP Korrekturservice verknüpft, der nicht mehr verfügbar ist.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp verwendet Microsoft Entra ID als Identitätsanbieter für Authentifizierungsservices, die speziell auf Support und Lizenzierung zugeschnitten sind.</block>
 </blocks>
