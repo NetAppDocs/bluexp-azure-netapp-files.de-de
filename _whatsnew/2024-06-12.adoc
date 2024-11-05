@@ -1,0 +1,17 @@
+= Neue Berechtigung erforderlich
+:allow-uri-read: 
+
+
+
+
+=== Neue Berechtigung erforderlich
+
+Für das Management von Azure NetApp Files Volumes von BlueXP ist jetzt die folgende Berechtigung erforderlich:
+
+Microsoft.Network/virtualNetworks/subnets/read
+
+Diese Berechtigung ist erforderlich, um ein virtuelles Netzwerk-Subnetz zu lesen.
+
+Wenn Sie derzeit Azure NetApp Files aus BlueXP managen, müssen Sie diese Berechtigung der benutzerdefinierten Rolle hinzufügen, die mit der zuvor erstellten Microsoft Entra-Applikation verknüpft ist.
+
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["Erfahren Sie, wie Sie eine Microsoft Entra-Anwendung einrichten und die benutzerdefinierten Rollenberechtigungen anzeigen"].
