@@ -41,9 +41,15 @@ image:screenshot_anf_create_account.png["Einen Screenshot der Felder, die zum Er
 Wenn Sie einen neuen Kapazitätspool erstellen, müssen Sie eine Größe angeben und ein auswählen https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-service-levels["Service-Level"^].
 
 +
-Die Mindestgröße für den Kapazitäts-Pool beträgt 4 TB. Sie können eine Größe in einem Vielfachen von 4 TB angeben.
+Die Mindestgröße für den Kapazitäts-Pool beträgt 1 TB.
 
-** *Details & Tags*: Geben Sie einen Namen und Größe des Datenträgers, vnet und Subnetz ein, in dem sich das Volume befinden soll, und geben Sie optional Tags für das Volume an.
+** *Details & Tags*: Geben Sie den Namen und die Größe des Volumes, das vnet und das Subnetz, in dem sich das Volume befinden soll, ein und geben Sie optional Tags für das Volume an. Wählen Sie *Standard* oder *Basic* Networking. *Standard* unterstützt Funktionen für virtuelle Netzwerke (vnet), während *Basic* die IP-Grenzwerte (<1000) reduziert hat und keine zusätzlichen vnet-Funktionen für das Volume bietet.
++
+Das folgende Beispiel beschreibt ein Volume namens *Demo-s*, wendet keine Tags an und zeigt an, dass das Volume *Standard*-Netzwerk verwendet, das vnet-Funktionen unterstützt.
+
++
+image:screenshot-details-tags-create-volume.gif["Ein Screenshot eines Beispiel-Volumes."]
+
 ** *Protokoll*: Wählen Sie das NFS- oder SMB-Protokoll und geben Sie die erforderlichen Informationen ein.
 +
 Dies ist ein Beispiel für die Details für NFS.
@@ -62,9 +68,6 @@ image:screenshot_anf_smb.gif["Einen Screenshot der Felder, die zum Einrichten ei
 . Wenn dieses Volume auf Grundlage eines Snapshots eines vorhandenen Volumes erstellt werden soll, wählen Sie den Snapshot aus der Dropdown-Liste Snapshot Name aus.
 . Klicken Sie Auf *Volumen Hinzufügen*.
 
-
-.Ergebnis
-Das neue Volumen wird der Arbeitsumgebung hinzugefügt.
 
 Weiter mit <<Volumes mounten,Montieren des Cloud Volumes>>.
 

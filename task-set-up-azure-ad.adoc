@@ -156,7 +156,7 @@ image:screenshot_settings_icon.gif["Ein Screenshot, in dem das Symbol Einstellun
 *** Anwendungs-ID (Client)
 *** ID des Verzeichnisses (Mandant)
 +
-Sie sollten diese Informationen erfasst haben, wenn Sie <<Create the AD application,Die AD-Anwendung wurde erstellt>>.
+Sie sollten diese Informationen erfasst haben, wenn Sie <<create-AD-application,Die AD-Anwendung wurde erstellt>>.
 
 
 

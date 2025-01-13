@@ -1,0 +1,33 @@
+---
+indexpage:
+  title: Azure NetApp Files-Dokumentation
+  summary: Azure NetApp Files ist ein nativer Microsoft Azure-File-Storage-Service
+    mit hoher Performance für Ihre wichtigsten Business-Applikationen. In dieser Dokumentation
+    wird beschrieben, wie Sie Azure NetApp Files mithilfe von NetApp BlueXP einrichten
+    und managen.
+  keywords: Azure NetApp files, BlueXP
+  lead: Azure NetApp Files ist ein nativer Microsoft Azure-File-Storage-Service mit
+    hoher Performance für Ihre wichtigsten Business-Applikationen. In dieser Dokumentation
+    wird beschrieben, wie Sie Azure NetApp Files mithilfe von NetApp BlueXP einrichten
+    und managen.
+  tiles:
+  - title: Los geht's
+    links:
+    - title: Weitere Informationen zu Azure NetApp Files
+      url: concept-azure-netapp-files.html
+    - title: Schnellstart
+      url: task-quick-start.html
+  - title: Verwenden Sie Azure NetApp Files
+    links:
+    - title: Volumes erstellen
+      url: task-create-volumes.html
+    - title: Volumes managen
+      url: task-manage-volumes.html
+  - title: Blogs und Community
+    links:
+    - title: NetApp Community
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP-Blog
+      url: https://cloud.netapp.com/blog
+    - title: Cloud-Webinare
+      url: https://cloud.netapp.com/events

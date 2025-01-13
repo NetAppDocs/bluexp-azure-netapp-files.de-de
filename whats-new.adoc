@@ -18,35 +18,23 @@ Erfahren Sie alles über die Neuerungen bei Azure NetApp Files in BlueXP.
 
 
 
-== 12 Juni 2024
+== 13 Januar 2024
 
 
 
-=== Neue Berechtigung erforderlich
+=== Netzwerkfunktionen werden jetzt in BlueXP  unterstützt
 
-Für das Management von Azure NetApp Files Volumes von BlueXP ist jetzt die folgende Berechtigung erforderlich:
-
-Microsoft.Network/virtualNetworks/subnets/read
-
-Diese Berechtigung ist erforderlich, um ein virtuelles Netzwerk-Subnetz zu lesen.
-
-Wenn Sie derzeit Azure NetApp Files aus BlueXP managen, müssen Sie diese Berechtigung der benutzerdefinierten Rolle hinzufügen, die mit der zuvor erstellten Microsoft Entra-Applikation verknüpft ist.
-
-https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["Erfahren Sie, wie Sie eine Microsoft Entra-Anwendung einrichten und die benutzerdefinierten Rollenberechtigungen anzeigen"].
-
-
-
-== Bis 22. April 2024
-
-
-
-=== Volume-Vorlagen werden nicht mehr unterstützt
-
-Sie können kein Volume mehr aus einer Vorlage erstellen. Diese Aktion wurde mit dem BlueXP Korrekturservice verknüpft, der nicht mehr verfügbar ist.
+Wenn Sie ein Volume in Azure NetApp Files über BlueXP  konfigurieren, können Sie jetzt Netzwerkfunktionen angeben. Dies harmonisiert mit den in nativen Azure NetApp Files verfügbaren Funktionen.
 
 
 
 == 11. April 2021
+
+
+
+=== Unterstützung für Volume-Vorlagen
+
+Mit einem neuen Applikationsvorlagen-Service können Sie eine Volume-Vorlage für Azure NetApp Files einrichten. Die Vorlage sollte Ihren Job einfacher machen, da bestimmte Volume-Parameter bereits in der Vorlage definiert werden, z. B. Kapazitäts-Pool, Größe, Protokoll, vnet und Subnetz, auf dem sich das Volume befinden soll, und vieles mehr. Wenn ein Parameter bereits vordefiniert ist, können Sie einfach zum nächsten Volume-Parameter springen.
 
 
 
