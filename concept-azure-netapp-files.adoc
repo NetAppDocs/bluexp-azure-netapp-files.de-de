@@ -51,7 +51,7 @@ Beachten Sie, dass Ihr Abonnement und Ihre Gebühren vom Azure NetApp Files-Serv
 
 == Unterstützte Regionen
 
-https://cloud.netapp.com/cloud-volumes-global-regions["Unterstützte Azure Regionen anzeigen"^]
+https://bluexp.netapp.com/cloud-volumes-global-regions["Unterstützte Azure Regionen anzeigen"^]
 
 
 
@@ -63,7 +63,7 @@ Bei Problemen mit dem technischen Support im Zusammenhang mit Azure NetApp Files
 
 == Weiterführende Links
 
-* https://cloud.netapp.com/azure-netapp-files["Azure NetApp Files auf der NetApp BlueXP Website"^]
-* https://docs.microsoft.com/azure/azure-netapp-files/["Azure NetApp Files-Dokumentation"^]
-* https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["Dokumentation der BlueXP Kopier- und Synchronisierungsfunktion"^]
+* link:https://bluexp.netapp.com/azure-netapp-files["Azure NetApp Files auf der NetApp BlueXP Website"^]
+* link:https://learn.microsoft.com/azure/azure-netapp-files/["Azure NetApp Files-Dokumentation"^]
+* link:https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["Dokumentation der BlueXP Kopier- und Synchronisierungsfunktion"^]
 
